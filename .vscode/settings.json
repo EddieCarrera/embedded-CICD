@@ -1,0 +1,7 @@
+{
+  "cmake.sourceDirectory": "/Users/eddie/Coding Workspace/pico-CICD/cmake-3.29.0-tutorial-source/Step2_adding_a_library",
+  "files.associations": {
+    "string": "cpp",
+    "iostream": "cpp"
+  }
+}
