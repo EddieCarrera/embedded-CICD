@@ -1,7 +1,7 @@
 import os, subprocess
 
 # Settings 
-TEST_DIR = "."
+TEST_DIR = "hello-githubAction-test/"
 CODE_FILE = "main.cpp"
 COMPILER_TIMEOUT_S = 10.0
 RUN_TIMEOUT_S = 10.0
