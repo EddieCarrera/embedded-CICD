@@ -1,14 +1,14 @@
 import os, subprocess
 
 # Settings 
-TEST_DIR = "/hello-githubAction-test"
+TEST_DIR = "."
 CODE_FILE = "main.cpp"
 COMPILER_TIMEOUT_S = 10.0
 RUN_TIMEOUT_S = 10.0
 
 # Create absolute paths
 code_path = os.path.join(TEST_DIR, CODE_FILE)
-app_path = os.path.join(TEST_DIR, "app")
+app_path = os.path.join(TEST_DIR, "outputExe")
 
 # Compile program
 print("Building...")
